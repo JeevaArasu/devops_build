@@ -3,9 +3,9 @@
 - Copy the git repo url: https://github.com/sriram-R-krishnan/devops-build to the local machine
 ### Using Command git clone
 - make dir to the local machine
--- Commands
+# Commands
   #create the folder in local machine
-  -- cd D:
+  -- cd D:\
   -- mkdir capstone 
   -- git clone https://github.com/sriram-R-krishnan/devops-build
   -- ![images] (https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-07%20231057.png)
