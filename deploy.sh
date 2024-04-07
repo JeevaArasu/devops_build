@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Logging in to Docker Hub..."
-docker login -u $DOCKER_USERNAME -p $DOCKER_PASS
+sudo docker login -u $DOCKER_USERNAME -p $DOCKER_PASS
 
 if [[ $GIT_BRANCH == "origin/master" ]]; then
 docker tag capstone jeevaarasu/react-app
