@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Logging in to Docker Hub..."
+echo $DOCKER_USERNAME $DOCKER_PASS
 echo $DOCKER_PASS | docker login -u $DOCKER_USERNAME --password-stdin
 
 if [[ $GIT_BRANCH == "origin/master" ]]; then
