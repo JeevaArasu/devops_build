@@ -89,6 +89,10 @@
   	 sudo  systemctl restart jenkins
 ```
 - Complete the setup wizard of Jenkins.
-
+  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20224559.png)
+  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20224725.png)
 - Create a new project with pipeline
-
+  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20225000.png)
+  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20225042.png)
+- Build output
+  	- 
