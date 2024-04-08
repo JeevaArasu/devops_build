@@ -54,14 +54,13 @@
     docker push jeevaarasu/dev:app
 fi
 :wq!( # to save the file)
-###### .docker ignore &.git ignore
 
-####### docker hub
-Create two repositories 
-Prod- private repo
-Dev- public repo
+###### docker hub
+- Create two repositories 
+- Prod- private repo
+- Dev- public repo
 
-######## Jenkins
+###### Jenkins
  - To install jenkins 
 Command: 
 -- Install java:
