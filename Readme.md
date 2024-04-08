@@ -1,5 +1,5 @@
 # React- Application
-## Git Repository Clone
+# Git Repository Clone
 - Copy the git repo url: https://github.com/sriram-R-krishnan/devops-build to the local machine
 ### Using Command git clone
 - make dir to the local machine
