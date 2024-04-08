@@ -55,7 +55,7 @@
 	 vi deploy.sh
 	 #!/bin/bash
   	 echo "Logging in to Docker Hub..."
-  	 docker login -u jeevaarasu  -p dckr_pat_NXoExep3iTjubmqBCdmHgQ59faE
+  	 docker login -u $DOCKER_USERNAME  -p $DOCKER_PASS
     	 if [[ $GIT_BRANCH == "origin/master" ]]; then
     	 docker tag capstone jeevaarasu/prod:cap
     	 docker push jeevaarasu/prod:cap
@@ -69,7 +69,7 @@
 - Create two repositories 
 	- Prod:[Prod-private repo](https://hub.docker.com/repository/docker/jeevaarasu/prod/)
 	- DEV:[DEV-public repo](https://hub.docker.com/repository/docker/jeevaarasu/dev/)
-
+	  ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20213115.png)
 ###### Jenkins
  6. To install jenkins
     
