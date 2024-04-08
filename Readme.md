@@ -68,7 +68,9 @@
 ###### Docker Hub
 - Create two repositories 
 	- Prod- private repo
+   		Prod:[Prod-private repo](https://hub.docker.com/repository/docker/jeevaarasu/prod/)
 	- Dev- public repo
+   		DEV:[DEV-public repo](https://hub.docker.com/repository/docker/jeevaarasu/dev/)
 
 ###### Jenkins
  6. To install jenkins
