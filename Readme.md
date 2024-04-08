@@ -11,7 +11,8 @@
       ![images] (https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-07%20231057.png)
 
 #### Dockerize the given application
-**Commands**
+**Commands** 
+
 2. Dockerfile:
 ```
 # create new docker file
@@ -37,7 +38,8 @@
 	 :wq! (# to save the file)
 ```
 ##### Bash script
-**Commands**
+**Commands** 
+
 4. build.sh
  ```
  #create build.sh
@@ -69,7 +71,8 @@
 	- Dev- public repo
 
 ###### Jenkins
- 6. To install jenkins 
+ 6. To install jenkins
+    
 **Commands** 
 ```
 - Install java:
