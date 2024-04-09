@@ -1,7 +1,7 @@
 # React- Application
 # Git Repository Clone
 - Copy the git repo url: https://github.com/sriram-R-krishnan/devops-build to the local machine
-### Using Command git clone
+# Using Command git clone
 - make dir to the local machine
 **Commands**
 1. create the folder in local machine
@@ -10,7 +10,7 @@
       git clone https://github.com/sriram-R-krishnan/devops-build
       ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-07%20231057.png)
 
-#### Dockerize the given application
+# Dockerize the given application
 **Commands** 
 
 2. Dockerfile:
@@ -37,7 +37,7 @@
 		    - “80:80”
 	 :wq! (# to save the file)
 ```
-##### Bash script
+# Bash script
 **Commands** 
 
 4. build.sh
@@ -65,7 +65,7 @@
 	 fi
 	 :wq!( # to save the file)
 ```
-###### Docker Hub
+# Docker Hub
 - Create two repositories 
 	- Prod:[Prod-private repo](https://hub.docker.com/repository/docker/jeevaarasu/prod/)
 	- DEV:[DEV-public repo](https://hub.docker.com/repository/docker/jeevaarasu/dev/)
@@ -89,36 +89,38 @@
   	 sudo  systemctl restart jenkins
 ```
 - Complete the setup wizard of Jenkins.
-  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20224559.png)
-  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20224725.png)
+  ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20224559.png)
+  ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20224725.png)
 - Create a new project with pipeline.
-  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20225000.png)
-  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20225042.png)
+  ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20225000.png)
+  ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20225042.png)
 - Build output:-
-  	- Push from Dev branch:
-  		- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20233642.png)
-  		- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20233732.png)
-  	 - Images push to dev repo
-  	   	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234425.png)
-  	 - Enable continous triggers for Github webhook:
-  	   	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234113.png)
-  	- Push from Master branch:
-		- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234304.png)
-  	  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234335.png)
-	- Images push to prod repo
-   		- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234459.png)
+  - Push from Dev branch:
+  	   ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20233642.png)
+  	   ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20233732.png)
+  - Images push to dev repo
+  	   ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234425.png)
+  - Enable continous triggers for Github webhook:
+    	   ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234113.png)
+  - Push from Master branch:
+	  ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234304.png)
+          ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234335.png)
+   - Images push to prod repo
+   	  ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234459.png)
        	
-###### AWS
+# AWS
 - Launch EC2 instance type t2.micro & create the Security group
-  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230525.png)
-  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230346.png)
+  ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230525.png)
+  ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230346.png)
 - Deploy the created application
   	- Login the server via ssh and clone the github url repo
-  	- deploy the application and it accessble from diifernt who ever have public ip
-  **Access from mobile**
-  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/WhatsApp%20Image%202024-04-09%20at%2023.11.38_d23d146f.jpg)
-  **Access from GUI**
-  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230244.png)
+  	- deploy the application and it accessble from diifernt who ever have public ip.
+  	  
+**Access from mobile**
+   ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/WhatsApp%20Image%202024-04-09%20at%2023.11.38_d23d146f.jpg)
+
+**Access from GUI**
+  ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230244.png)
   
   
 
