@@ -95,4 +95,9 @@
   	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20225000.png)
   	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20225042.png)
 - Build output
-  	- 
+
+###### AWS
+- Launch EC2 instance type t2.micro
+- create the Security group
+  
+
