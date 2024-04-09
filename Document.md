@@ -91,13 +91,34 @@
 - Complete the setup wizard of Jenkins.
   	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20224559.png)
   	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20224725.png)
-- Create a new project with pipeline
+- Create a new project with pipeline.
   	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20225000.png)
   	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20225042.png)
-- Build output
-
+- Build output:-
+  	- Push from Dev branch:
+  		- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20233642.png)
+  		- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20233732.png)
+  	 - Images push to dev repo
+  	   	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234425.png)
+  	 - Enable continous triggers for Github webhook:
+  	   	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234113.png)
+  	- Push from Master branch:
+		- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234304.png)
+  	  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234335.png)
+	- Images push to prod repo
+   		- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-08%20234459.png)
+       	
 ###### AWS
-- Launch EC2 instance type t2.micro
-- create the Security group
+- Launch EC2 instance type t2.micro & create the Security group
+  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230525.png)
+  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230346.png)
+- Deploy the created application
+  	- Login the server via ssh and clone the github url repo
+  	- deploy the application and it accessble from diifernt who ever have public ip
+  **Access from mobile**
+  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/WhatsApp%20Image%202024-04-09%20at%2023.11.38_d23d146f.jpg)
+  **Access from GUI**
+  	- ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230244.png)
+  
   
 
