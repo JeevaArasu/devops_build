@@ -1,4 +1,4 @@
-# <p style="React Application-align: center;">Text_content</p>
+# <p style="text-align: center;">React Application</p>
 # URL's:
   - Github repo: [JeevaArasu/devops_build](https://github.com/JeevaArasu/devops_build.git)
   - Deploy Site url: [react app](http://13.126.167.206/)
