@@ -114,12 +114,13 @@
   ![images](https://github.com/JeevaArasu/devops_build/blob/master/images/Screenshot%202024-04-10%20080105.png)
 - Deploy the created application
   	- Login the server via ssh and clone the github url repo:[jeevaarasu devops-build](https://github.com/JeevaArasu/devops_build.git)
-  	- deploy the application and it accessble from diifernt who ever have public ip.
-  	  
+  	- deploy the application and it accessble from diifernt who ever have public ip. 
 **Access from mobile**
+
 ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/WhatsApp%20Image%202024-04-10%20at%2008.11.19_18bb47b7.jpg)
 
 **Access from GUI**
+
 ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-10%20104403.png)
 
 # Monitoring
