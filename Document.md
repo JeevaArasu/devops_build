@@ -118,13 +118,28 @@
   	  
 **Access from mobile**
 
-![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/WhatsApp%20Image%202024-04-09%20at%2023.11.38_d23d146f.jpg)
+![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/WhatsApp%20Image%202024-04-10%20at%2008.11.19_18bb47b7.jpg)
 
 **Access from GUI**
 
-![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230244.png)
+![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-10%20104403.png)
 
 # Monitoring
+-Insall prometheus and grafana for the monitoring.
+	-- **Prometheus target list**
+![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-10%20095404.png)
+	-- **Grafana Dashboard**
+![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-10%20100844.png)
+	-- **Alert configuration**
+![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-10%20101915.png)
+	-- **Alert triggered**
+ ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-10%20102039.png)
+ 	-- **Target list down**
+ ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-10%20102110.png)
+ 	-- **Recevied mail from Grafna**
+![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-10%20102446.png)
+![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-10%20102249.png)
+
 
   
   
