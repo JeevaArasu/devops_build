@@ -113,7 +113,7 @@
   ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230525.png)
   ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230346.png)
 - Deploy the created application
-  	- Login the server via ssh and clone the github url repo
+  	- Login the server via ssh and clone the github url repo:[jeevaarasu devops-build](https://github.com/JeevaArasu/devops_build.git)
   	- deploy the application and it accessble from diifernt who ever have public ip.
   	  
 **Access from mobile**
@@ -123,6 +123,9 @@
 **Access from GUI**
 
 ![images](https://github.com/JeevaArasu/devops_build/blob/dev/images/Screenshot%202024-04-09%20230244.png)
+
+# Monitoring
+
   
   
 
